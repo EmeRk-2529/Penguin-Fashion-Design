@@ -42,9 +42,9 @@
               </span>
             </div>
         
-            <ul class=" flex flex-col  md:flex md:flex-row md:items-center text-center z-[-1] md:z-auto md:mr-[218px] gap-5 md:gap-8 w-full bg-orange-200 md:bg-amber-100 left-0 md:w-auto md:py-0 py-4 md:pl-0 mt-5 rounded-[30px] md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <ul class=" flex flex-col  md:flex md:flex-row md:items-center text-center absolute md:z-auto md:static md:mr-[218px] gap-5 ml-[15px]  md:gap-8  bg-orange-200 md:bg-amber-100 left-0 md:w-auto md:py-0 py-4 md:pl-0 mt-5 rounded-[20px] md:opacity-100 opacity-0 top-[62px] transition-all ease-in duration-500 w-[342px]">
               <li class="md:ml-4  md:my-0">
-                <a href="responsive.html" class=" hover:text-lime-600 duration-500 hover:uppercase text-base md:hover:normal-case font-bold">Home</a>
+                <a href="#" class=" hover:text-lime-600 duration-500 hover:uppercase text-base md:hover:normal-case font-bold">Home</a>
               </li>
               <li class="md:ml-4  md:my-0">
                 <a href="#" class="  hover:text-lime-600 duration-500 hover:uppercase md:hover:normal-case text-base font-bold">Product</a>
@@ -272,7 +272,7 @@
  <script>
     function Menu(e){
       let list = document.querySelector('ul');
-      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[62px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[62px]'),list.classList.remove('opacity-100'))
     }
   </script>
 </body>
